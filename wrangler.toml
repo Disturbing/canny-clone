@@ -1,0 +1,10 @@
+name = "canny-clone"
+compatibility_date = "2024-02-13"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "canny-db-dev"
+database_id = "981f7b9f-3dbf-4fe0-9485-8ec7b86edf83"
+
+[miniflare]
+d1_databases = ["canny-db-dev"] 
